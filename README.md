@@ -1,6 +1,6 @@
-Submissions 3
+**Total Solutions:** 3
 
-basic:        3
-intermediate:        0
-advanced:        0
+- **Basic:**        3
+- **Intermediate:**        0
+- **Advanced:**        0
 
