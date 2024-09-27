@@ -1,6 +1,6 @@
-**Total Solutions:** 3
+**Total Solutions:** 4
 
-- **Basic:**        3
+- **Basic:**        4
 - **Intermediate:**        0
 - **Advanced:**        0
 
