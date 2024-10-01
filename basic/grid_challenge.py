@@ -7,19 +7,17 @@ import re
 import sys
 
 def checkCols(grid):
-    length = len(grid[0])
-    for col in range(0, length):
-        prev = grid[0][col]
-        for row in range(1, length):
-            curr = grid[row][col]
-            if prev > curr:
+    rows = len(grid)
+    cols = len(grid[0])
+    for col in range(0, cols):
+        for row in range(1, rows):
+            if grid[row][col] < grid[row - 1][col]:
                 return 'NO'
-            prev = curr
-    return 'YES'      
+    return 'YES'
 
 def gridChallenge(grid):
-    for row in grid:
-        (''.split(row)).sort()
+    for i in range(len(grid)):
+        grid[i] = ''.join(sorted(grid[i]))
     return checkCols(grid)
         
 if __name__ == '__main__':
