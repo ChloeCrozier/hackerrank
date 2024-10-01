@@ -1,4 +1,6 @@
-k#!/bin/python3
+# https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem?isFullScreen=true
+# https://projecteuler.net/problem=1
+#!/bin/python3
 import sys
 
 def sum(divisor, upperRange):
