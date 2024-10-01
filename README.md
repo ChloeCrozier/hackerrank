@@ -1,6 +1,6 @@
-**Total Solutions:** 9
+**Total Solutions:** 10
 
-- **Basic:**        7
+- **Basic:**        8
 - **Intermediate:**        0
 - **Advanced:**        0
 - **Project Euler:**        2
